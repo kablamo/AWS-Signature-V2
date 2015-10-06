@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Create a version 2 signature for AWS services",
    "author" : [
       "Eric Johnson <eric.git@iijo.org>"
    ],
@@ -42,6 +42,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Digest::SHA" : "0",
+            "URI::Escape" : "0",
             "perl" : "5.008001"
          }
       },
@@ -52,5 +54,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kablamo/AWS-Signature-V2/issues"
+      },
+      "homepage" : "https://github.com/kablamo/AWS-Signature-V2",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/kablamo/AWS-Signature-V2.git",
+         "web" : "https://github.com/kablamo/AWS-Signature-V2"
+      }
+   },
    "version" : "0.01"
 }
